@@ -15,6 +15,7 @@ public class PlayerScript2 : MonoBehaviour
 
     void Awake()
     {
+        Debug.Log("started");
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponentInChildren<SpriteRenderer>();
 

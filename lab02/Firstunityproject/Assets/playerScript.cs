@@ -8,7 +8,8 @@ public class playerScript : MonoBehaviour
     private bool isGrounded;
     private bool doubleJump; 
     void Start()
-    {
+    {       
+        Debug.Log("started");
         rb = GetComponent<Rigidbody2D>();
     }
 
