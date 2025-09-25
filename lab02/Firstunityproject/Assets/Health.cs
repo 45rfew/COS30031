@@ -9,7 +9,6 @@ public class Health : MonoBehaviour, IDamageable {
 
     [Header("Invulnerability")]
     [SerializeField] private float invulnAfterHit = 0.0f;
-
     public float CurrentHealth { get; private set; }
     public float MaxHealth => maxHealth;
 
